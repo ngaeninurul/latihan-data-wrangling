@@ -1,43 +1,47 @@
-Data Wrangling Proyek Analisis Data
+# Data Wrangling Proyek Analisis Data
 
-Proyek ini bertujuan untuk mempraktikkan proses Data Wrangling menggunakan dataset DicodingCollection, yang terdiri dari empat tabel: customers, orders, products, dan sales. Dataset ini diambil dari Dicoding Dataset.
-Tujuan Proyek
+Proyek ini bertujuan untuk mempraktikkan proses **Data Wrangling** menggunakan dataset **DicodingCollection**, yang terdiri dari empat tabel: `customers`, `orders`, `products`, dan `sales`. Dataset ini diambil dari [Dicoding Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/DicodingCollection).
 
-    Mengumpulkan dan menggabungkan data dari berbagai tabel.
-    Menilai kualitas data (missing values, duplikasi, format tidak konsisten).
-    Membersihkan data agar siap dianalisis.
+## Tujuan Proyek
 
-Alur Kerja
+1. Mengumpulkan dan menggabungkan data dari berbagai tabel.
+2. Menilai kualitas data (missing values, duplikasi, format tidak konsisten).
+3. Membersihkan data agar siap dianalisis.
 
-    Setup Virtual Environment:
-        Buat environment menggunakan pipenv.
-        Instal library: numpy, pandas, scipy, matplotlib, seaborn, jupyter.
+## Alur Kerja
 
-    Tahapan Wrangling:
-        Gathering Data: Mengimpor dan menggabungkan dataset.
-        Assessing Data: Mengecek missing values, duplikasi, dan ketidakkonsistenan.
-        Cleaning Data: Memperbaiki masalah untuk menghasilkan dataset bersih.
+1. **Setup Virtual Environment**:
+    - Buat environment menggunakan `pipenv`.
+    - Instal library: `numpy`, `pandas`, `scipy`, `matplotlib`, `seaborn`, `jupyter`.
 
-Cara Penggunaan
+2. **Tahapan Wrangling**:
+    - **Gathering Data**: Mengimpor dan menggabungkan dataset.
+    - **Assessing Data**: Mengecek missing values, duplikasi, dan ketidakkonsistenan.
+    - **Cleaning Data**: Memperbaiki masalah untuk menghasilkan dataset bersih.
 
-    Buat folder proyek:
+## Cara Penggunaan
 
-mkdir proyek_analisis_data
-cd proyek_analisis_data
+1. Buat folder proyek:
+    ```bash
+    mkdir proyek_analisis_data
+    cd proyek_analisis_data
+    ```
 
-Setup virtual environment:
+2. Setup virtual environment:
+    ```bash
+    pipenv install
+    pipenv shell
+    pip install numpy pandas scipy matplotlib seaborn jupyter
+    ```
 
-pipenv install
-pipenv shell
-pip install numpy pandas scipy matplotlib seaborn jupyter
-
-Jalankan Jupyter Notebook:
-
+3. Jalankan Jupyter Notebook:
+    ```bash
     jupyter-notebook .
+    ```
 
-    Tambahkan file baru bernama notebook.ipynb dan lakukan proses data wrangling di file tersebut.
+4. Tambahkan file baru bernama `notebook.ipynb` dan lakukan proses data wrangling di file tersebut.
 
-Sumber Dataset
+## Sumber Dataset
 
-Dataset yang digunakan dalam proyek ini dapat diakses melalui repository berikut:
-Dicoding Dataset - DicodingCollection.
+Dataset yang digunakan dalam proyek ini dapat diakses melalui repository berikut:  
+[Dicoding Dataset - DicodingCollection](https://github.com/dicodingacademy/dicoding_dataset/tree/main/DicodingCollection).
